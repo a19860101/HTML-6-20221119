@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         h2 {
-            color: red;
+            color: red!important;
         }
         .abc {
             color: greenyellow;
@@ -15,11 +16,25 @@
         #xyz {
             color: orange;
         }
+        h2 {
+            color: #0400ff;
+        }
     </style>
+   
 </head>
 <body>
-    <h2>hello 2</h2>
-    <p id="xyz">
+    <h2 class="abc" id="xyz" style="color:purple;">hello 2</h2>
+    <!-- 
+        CSS specificity 權重
+        影響元素愈少，權重愈重，愈優先套用(物以稀為貴)
+        !important > 嵌入式 > ID > CLASS > TAG
+
+        當權重正確還無法顯示樣式時，則有可能是順序問題
+        後寫大於先寫
+
+        先寫外部樣式在寫內部樣式，避免影響套用順序
+    -->
+    <p>
         身份實施超過實驗五年軟體希望首次是我速度門派，外國貢獻自動我對的說講話，所說降價管理系統說出廠商據說，預計我有二人章節改造精美套件聽到態度大約兩個教程，體現實用物品，青春很有證明文檔然而排行能源承認世界出來不願，水果四周需要，總結些什麼，工作人員軟體，中。
     </p>
     <p>
@@ -30,7 +45,7 @@
     </p>
     <!-- 
         選取器
-        1. 標籤
+        1. 標籤 tag
         2. 類別 class
         3. id (只可使用一次)
 
