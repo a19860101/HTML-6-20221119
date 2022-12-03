@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe ui';
+            padding: 2rem;
+        }
+        .card {
+            width: 400px;
+            margin: auto;
+            border: 1px solid #aaa;
+
+            /* display: flex; */
+            /* flex-direction: column; */
+           
+        }
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        .content {
+            /* display: flex; */
+            /* flex-direction: column; */
+
+            padding: 15px;
+        }
+        /* 後代 */
+        .content h3 {
+            margin-bottom: 12px;
+            color: #ffbe0a;
+            text-transform: uppercase;
+        }
+        .content p {
+            margin-bottom: 16px;
+        }
+        .card-btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #ffca1d;
+            padding: 6px 20px;
+            color: #222;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://picsum.photos/id/65/800/600" alt="">
+        <div class="content">
+            <h3>title</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, officia!
+            </p>
+            <a href="#" class="card-btn">link</a>
+        </div>
+    </div>
+</body>
+</html>
