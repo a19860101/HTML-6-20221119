@@ -15,13 +15,20 @@
             font-family: 'Segoe ui';
             padding: 2rem;
         }
+        .container {
+            width:1000px;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
         .card {
             width: 400px;
-            margin: auto;
+            height: 550px;
             border: 1px solid #aaa;
-
-            /* display: flex; */
-            /* flex-direction: column; */
+            margin-left:auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
            
         }
         img {
@@ -30,10 +37,12 @@
         }
 
         .content {
-            /* display: flex; */
-            /* flex-direction: column; */
+            display: flex;
+            flex-direction: column;
+            align-items: start;
 
             padding: 15px;
+            height: 100%;
         }
         /* 後代 */
         .content h3 {
@@ -51,18 +60,34 @@
             padding: 6px 20px;
             color: #222;
             border-radius: 4px;
+            margin-top: auto;
+            margin-left: auto;
         }
     </style>
 </head>
 <body>
-    <div class="card">
-        <img src="https://picsum.photos/id/65/800/600" alt="">
-        <div class="content">
-            <h3>title</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, officia!
-            </p>
-            <a href="#" class="card-btn">link</a>
+    <div class="container">
+
+        
+        <div class="card">
+            <img src="https://picsum.photos/id/65/800/600" alt="">
+            <div class="content">
+                <h3>title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, officia!
+                </p>
+                <a href="#" class="card-btn">link</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/id/65/800/600" alt="">
+            <div class="content">
+                <h3>title</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nesciunt aperiam deleniti sequi adipisci quibusdam ducimus, consectetur dolores porro iure unde rerum ratione, iste fugit, amet id! Saepe, dolores porro?
+                </p>
+                <a href="#" class="card-btn">link</a>
+            </div>
         </div>
     </div>
 </body>
