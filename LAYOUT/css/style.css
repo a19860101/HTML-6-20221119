@@ -115,3 +115,33 @@ header {
     border: 1px solid #ff2448;
     background-color: #fff;
 }
+/* btn */
+.btn {
+    display: inline-block;
+  
+    padding: 8px 30px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-dark {
+    background-color: #222;
+    color: #fff;
+}
+.btn-light {
+    background-color: #aaa;
+    color: #222;
+}
+.btn-blue {
+    background-color: #0066ff;
+    color: #fff;
+}
+/* footer */
+footer {
+    background-color: #111;
+    color: #e0e0e0;
+    text-align: center;
+    padding:25px;
+    letter-spacing: 1px;
+}
