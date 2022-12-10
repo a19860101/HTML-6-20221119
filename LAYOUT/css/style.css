@@ -59,3 +59,29 @@ header {
 #about p {
     line-height: 1.7rem;
 }
+/* service */
+#service {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #ebf6ff;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b5b5b5;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 410px;
+    box-shadow: 0px 5px 10px 0px rgb(0 0 0 / .1);
+}
+.card-content {
+    padding: 15px;
+    background-color: #fff;
+    height: 100%;
+}
+.card-content h3 {
+    margin-bottom: 12px;
+}
+.card-content p {
+    line-height: 1.7rem;
+}
