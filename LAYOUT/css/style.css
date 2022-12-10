@@ -16,6 +16,15 @@ nav {
 .nav-logo {
     font-weight: bold;
 }
+.nav-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.nav-link:hover {
+    background-color: #fff064;
+    color: #000;
+}
 nav a {
     color: #eee;
     text-decoration: none;
@@ -151,12 +160,15 @@ header {
     background-color: #222;
     color: #fff;
 }
-.btn-light {
-    background-color: #aaa;
-    color: #222;
+.btn-dark:hover {
+    background-color: #555;
 }
 .btn-blue {
     background-color: #0066ff;
+    color: #fff;
+}
+.btn-blue:hover {
+    background-color: #428eff;
     color: #fff;
 }
 /* footer */
