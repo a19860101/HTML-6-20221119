@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    background-color: #222;
+}
+.nav-menu {
+    display: flex;
+    margin-left: auto;
+}
+.nav-logo {
+    font-weight: bold;
+}
+nav a {
+    color: #eee;
+    text-decoration: none;
+    padding: 0 10px;
+}
