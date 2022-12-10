@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Gill sans MT','微軟正黑體',sans-serif;
+}
+img {
+    width: 100%;
+    display: block;
+}
