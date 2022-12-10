@@ -50,6 +50,7 @@ header {
 .section-title {
     font-size: 32px;
     text-align: center;
+    font-weight: bold;
 }
 #about h3 {
     font-size: 24px;
@@ -84,4 +85,33 @@ header {
 }
 .card-content p {
     line-height: 1.7rem;
+}
+/* contact */
+#contact {
+    padding-top:150px;
+    padding-bottom:150px;
+    background-color: #fff4f4;
+}
+#contact .row {
+    justify-content: center;
+}
+.form-group {
+    margin-bottom: 12px;
+}
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-control {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #9a9a9a;
+    padding: 8px;
+    outline: 0;
+    font-size: 16px;
+    background-color: #fff8f8;
+}
+.form-control:focus {
+    border: 1px solid #ff2448;
+    background-color: #fff;
 }
